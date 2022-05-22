@@ -898,5 +898,10 @@
 	{
 		"endurance": 25,
 		"combat": 10
+	},
+	"projecte:philosophers_stone":
+	{
+		"building": -100,
+		"woodcutting": -100
 	}
 }

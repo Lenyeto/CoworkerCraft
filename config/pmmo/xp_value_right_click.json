@@ -1,6 +1,6 @@
 {
-	"minecraft:exampleitem":
+	"projecte:philosophers_stone":
 	{
-		"magic": 10
+		"magic": 0.1
 	}
 }
