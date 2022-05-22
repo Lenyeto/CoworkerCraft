@@ -6,35 +6,189 @@
 	title: "Talents"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		title: "Engineering I"
-		icon: "create:wrench"
-		x: 1.5d
-		y: -1.0d
-		shape: "diamond"
-		description: ["This talent unlocks the ability to craft and use Create items and blocks."]
-		id: "0F7945F334061FBB"
-		tasks: [
-			{
-				id: "74A08BCC1814545A"
-				type: "pmmo:skill"
-				skill: "crafting"
-				requiredLevel: 20.0d
-			}
-			{
-				id: "7774BBC50A7B2978"
-				type: "item"
-				item: "minecraft:bedrock"
-			}
-		]
-		rewards: [{
-			id: "563404A8B2DDC637"
-			type: "gamestage"
+	quests: [
+		{
 			title: "Engineering I"
 			icon: "create:wrench"
-			team_reward: false
-			auto: "enabled"
-			stage: "Engineering I"
-		}]
-	}]
+			x: 1.5d
+			y: -1.0d
+			shape: "gear"
+			description: ["This talent unlocks the ability to craft and use Create items and blocks."]
+			id: "0F7945F334061FBB"
+			tasks: [
+				{
+					id: "74A08BCC1814545A"
+					type: "pmmo:skill"
+					title: "Crafting Skill"
+					skill: "crafting"
+					requiredLevel: 20.0d
+				}
+				{
+					id: "7774BBC50A7B2978"
+					type: "item"
+					item: "minecraft:bedrock"
+				}
+			]
+			rewards: [{
+				id: "563404A8B2DDC637"
+				type: "gamestage"
+				title: "Engineering I"
+				icon: "create:wrench"
+				team_reward: false
+				auto: "enabled"
+				stage: "Engineering I"
+			}]
+		}
+		{
+			title: "Engineering II"
+			icon: "thermal:wrench"
+			x: 1.5d
+			y: 0.5d
+			shape: "gear"
+			dependencies: ["0F7945F334061FBB"]
+			id: "7EA07A68D8FCB6FC"
+			tasks: [
+				{
+					id: "57E57478BA337E3F"
+					type: "pmmo:skill"
+					title: "Crafting Skill"
+					skill: "crafting"
+					requiredLevel: 40.0d
+				}
+				{
+					id: "1183D96D01B68B25"
+					type: "item"
+					item: "minecraft:bedrock"
+				}
+			]
+			rewards: [{
+				id: "30D14C60EE33C930"
+				type: "gamestage"
+				title: "Engineering II"
+				icon: "thermal:wrench"
+				team_reward: false
+				auto: "enabled"
+				stage: "Engineering II"
+			}]
+		}
+		{
+			title: "XP -> Talent Point"
+			x: -0.5d
+			y: -4.5d
+			id: "2AD51156B1475D47"
+			tasks: [{
+				id: "23C53E0963C7BDD5"
+				type: "xp"
+				value: 50L
+				points: false
+			}]
+			rewards: [{
+				id: "40697790A7B04568"
+				type: "item"
+				team_reward: false
+				item: "minecraft:bedrock"
+				only_one: true
+			}]
+		}
+		{
+			title: "Nether Star -> Talent Point"
+			x: 0.5d
+			y: -4.5d
+			id: "6DCE71DFEE9BAB98"
+			tasks: [{
+				id: "2448027C39F07FAF"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+			rewards: [{
+				id: "11DB333FE77A199E"
+				type: "item"
+				team_reward: false
+				item: "minecraft:bedrock"
+				only_one: true
+			}]
+		}
+		{
+			title: "Engineering III"
+			icon: "refinedstorage:wrench"
+			x: 1.5d
+			y: 2.0d
+			shape: "gear"
+			dependencies: ["7EA07A68D8FCB6FC"]
+			id: "6732C8B8F802F447"
+			tasks: [
+				{
+					id: "1BE282C57C07A984"
+					type: "pmmo:skill"
+					title: "Crafting Skill"
+					skill: "crafting"
+					requiredLevel: 60.0d
+				}
+				{
+					id: "14AC249804F07471"
+					type: "item"
+					item: "minecraft:bedrock"
+				}
+			]
+			rewards: [{
+				id: "1B05522E5B897FCD"
+				type: "gamestage"
+				icon: "refinedstorage:wrench"
+				auto: "invisible"
+				stage: "Engineering III"
+			}]
+		}
+		{
+			title: "Lumberjack I"
+			x: -2.0d
+			y: -1.0d
+			id: "023B1FE88C09CECB"
+			tasks: [
+				{
+					id: "670417872F9E982B"
+					type: "pmmo:skill"
+					title: "Woodcutting Skill"
+					skill: "woodcutting"
+					requiredLevel: 20.0d
+				}
+				{
+					id: "6D45F55B61AFACCA"
+					type: "item"
+					item: "minecraft:bedrock"
+				}
+			]
+			rewards: [{
+				id: "34B61063B5DFC1E0"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "Lumberjack I"
+			}]
+		}
+		{
+			title: "Prospector I"
+			x: -3.5d
+			y: -1.0d
+			id: "11057F654E9D756B"
+			tasks: [
+				{
+					id: "05264DE3FA20A58D"
+					type: "pmmo:skill"
+					title: "Mining Skill"
+					skill: "mining"
+					requiredLevel: 20.0d
+				}
+				{
+					id: "629E2D0744C8F086"
+					type: "item"
+					item: "minecraft:bedrock"
+				}
+			]
+			rewards: [{
+				id: "1846F062A903377C"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "Prospector I"
+			}]
+		}
+	]
 }
