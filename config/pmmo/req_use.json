@@ -91,7 +91,11 @@
 	},
 	"minecraft:enchanting_table":
 	{
-		"mining": 25
+		"magic": 25
+	},
+	"minecraft:brewing_stand":
+	{
+		"alchemy": 10
 	},
 	"minecraft:firework_rocket":
 	{
@@ -104,5 +108,13 @@
 	"minecraft:stonecutter":
 	{
 		"building": 10
+	},
+	"projecte:philosophers_stone":
+	{
+		"magic": 10
+	},
+	"waystones:waystone":
+	{
+		"magic": 20
 	}
 }
