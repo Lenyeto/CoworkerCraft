@@ -1,0 +1,10 @@
+{
+	id: "4A90F25E51300A5C"
+	group: "1ED7837736D2BB8F"
+	order_index: 1
+	filename: "excavation"
+	title: "Excavation"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

@@ -1,0 +1,10 @@
+{
+	id: "276357FA161C2636"
+	group: "1ED7837736D2BB8F"
+	order_index: 9
+	filename: "archery"
+	title: "Archery"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

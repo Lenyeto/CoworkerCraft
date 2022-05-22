@@ -1,0 +1,40 @@
+{
+	id: "71A0D112ACDA92F3"
+	group: ""
+	order_index: 0
+	filename: "talents"
+	title: "Talents"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Engineering I"
+		icon: "create:wrench"
+		x: 1.5d
+		y: -1.0d
+		shape: "diamond"
+		description: ["This talent unlocks the ability to craft and use Create items and blocks."]
+		id: "0F7945F334061FBB"
+		tasks: [
+			{
+				id: "74A08BCC1814545A"
+				type: "pmmo:skill"
+				skill: "crafting"
+				requiredLevel: 20.0d
+			}
+			{
+				id: "7774BBC50A7B2978"
+				type: "item"
+				item: "minecraft:bedrock"
+			}
+		]
+		rewards: [{
+			id: "563404A8B2DDC637"
+			type: "gamestage"
+			title: "Engineering I"
+			icon: "create:wrench"
+			team_reward: false
+			auto: "enabled"
+			stage: "Engineering I"
+		}]
+	}]
+}

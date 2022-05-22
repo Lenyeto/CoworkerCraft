@@ -1,0 +1,60 @@
+{
+	id: "369C6DE0516FC62F"
+	group: "1ED7837736D2BB8F"
+	order_index: 0
+	filename: "leveling_quests"
+	title: "Mining"
+	icon: {
+		id: "minecraft:diamond_pickaxe"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	subtitle: ["Quests related to mining, these usually give levels for doing mining tasks."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: 0.0d
+			id: "21B00273267842AC"
+			tasks: [{
+				id: "2ED317B931EC4797"
+				type: "pmmo:skill"
+				title: "Mining I"
+				icon: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				skill: "mining"
+				requiredLevel: 30.0d
+			}]
+		}
+		{
+			title: "First Diamond!"
+			x: 1.0d
+			y: 0.0d
+			id: "3DB6106B9418CE2C"
+			tasks: [{
+				id: "531B56755FDA5E3A"
+				type: "questsadditions:break"
+				icon: "minecraft:diamond_ore"
+				block: "minecraft:diamond_ore"
+				value: 1L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "741654CA0C974622"
+				type: "pmmo:levelreward"
+				title: "Mining +2"
+				auto: "invisible"
+				skill: "mining"
+				amount: 2.0d
+			}]
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	id: "70AC5E040D0F7159"
+	group: "1ED7837736D2BB8F"
+	order_index: 4
+	filename: "farming"
+	title: "Farming"
+	icon: {
+		id: "minecraft:diamond_hoe"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

@@ -1,0 +1,100 @@
+{
+	id: "4585FFE4A7FF4CED"
+	group: "1ED7837736D2BB8F"
+	order_index: 3
+	filename: "building"
+	title: "Building"
+	icon: "minecraft:scaffolding"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Finding Inspiration : Mineshaft"
+			icon: "minecraft:minecart"
+			x: 1.0d
+			y: -1.0d
+			id: "4F8C95FC810FBC54"
+			tasks: [{
+				id: "1C1BA67C7F8AA68E"
+				type: "structure"
+				title: "Visit a Mineshaft"
+				structure: "minecraft:mineshaft"
+			}]
+			rewards: [{
+				id: "4050618B0FF5240E"
+				type: "pmmo:levelreward"
+				title: "Building +2"
+				team_reward: false
+				auto: "invisible"
+				skill: "building"
+				amount: 2.0d
+			}]
+		}
+		{
+			title: "Finding Inspiration : Stronghold"
+			icon: "minecraft:mossy_stone_bricks"
+			x: -0.5d
+			y: 0.5d
+			id: "37CD3CB6025EF43B"
+			tasks: [{
+				id: "243275728CFBB47C"
+				type: "structure"
+				title: "Visit a Stronghold"
+				structure: "minecraft:stronghold"
+			}]
+			rewards: [{
+				id: "2933FB98DE1CEF1A"
+				type: "pmmo:levelreward"
+				title: "Building +5"
+				team_reward: false
+				auto: "invisible"
+				skill: "building"
+				amount: 5.0d
+			}]
+		}
+		{
+			title: "Finding Inspiration : Nether Fortress"
+			icon: "minecraft:nether_bricks"
+			x: -0.5d
+			y: -1.0d
+			id: "2DA9F5FD9AF9CC05"
+			tasks: [{
+				id: "138AE1074F45D463"
+				type: "structure"
+				title: "Visit a Nether Fortress"
+				structure: "minecraft:fortress"
+			}]
+			rewards: [{
+				id: "290B8975ED176A4B"
+				type: "pmmo:levelreward"
+				title: "Building +2"
+				team_reward: false
+				auto: "invisible"
+				skill: "building"
+				amount: 2.0d
+			}]
+		}
+		{
+			title: "Finding Inspiration : Woodland Mansion"
+			icon: "minecraft:dark_oak_stairs"
+			x: 1.0d
+			y: 0.5d
+			id: "0EE4153021FB167F"
+			tasks: [{
+				id: "2449842A4B9A518E"
+				type: "structure"
+				title: "Visit a Woodland Mansion"
+				structure: "minecraft:mansion"
+			}]
+			rewards: [{
+				id: "42FCC846F9F6B12C"
+				type: "pmmo:levelreward"
+				title: "Building +5"
+				team_reward: false
+				auto: "invisible"
+				skill: "building"
+				amount: 5.0d
+			}]
+		}
+	]
+}

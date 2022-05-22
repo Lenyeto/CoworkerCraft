@@ -1,0 +1,10 @@
+{
+	id: "0FF262349F21086E"
+	group: "1ED7837736D2BB8F"
+	order_index: 15
+	filename: "slayer"
+	title: "Slayer"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

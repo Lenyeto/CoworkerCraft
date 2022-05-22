@@ -1,0 +1,10 @@
+{
+	id: "5BC18BB3C2D11EDA"
+	group: "1ED7837736D2BB8F"
+	order_index: 16
+	filename: "hunter"
+	title: "Hunter"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}
