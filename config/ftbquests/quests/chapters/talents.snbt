@@ -109,12 +109,12 @@
 			}]
 		}
 		{
-			title: "Engineering III"
+			title: "Engineering IV"
 			icon: "refinedstorage:wrench"
 			x: 1.5d
-			y: 2.0d
+			y: 3.5d
 			shape: "gear"
-			dependencies: ["7EA07A68D8FCB6FC"]
+			dependencies: ["3793601631B3CCD3"]
 			id: "6732C8B8F802F447"
 			tasks: [
 				{
@@ -122,7 +122,7 @@
 					type: "pmmo:skill"
 					title: "Crafting Skill"
 					skill: "crafting"
-					requiredLevel: 60.0d
+					requiredLevel: 80.0d
 				}
 				{
 					id: "14AC249804F07471"
@@ -134,13 +134,21 @@
 				id: "1B05522E5B897FCD"
 				type: "gamestage"
 				icon: "refinedstorage:wrench"
+				team_reward: false
 				auto: "invisible"
-				stage: "Engineering III"
+				stage: "Engineering IV"
 			}]
 		}
 		{
 			title: "Lumberjack I"
-			x: -2.0d
+			icon: {
+				id: "minecraft:stone_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.5d
 			y: -1.0d
 			id: "023B1FE88C09CECB"
 			tasks: [
@@ -166,7 +174,14 @@
 		}
 		{
 			title: "Prospector I"
-			x: -3.5d
+			icon: {
+				id: "minecraft:stone_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.0d
 			y: -1.0d
 			id: "11057F654E9D756B"
 			tasks: [
@@ -188,6 +203,351 @@
 				type: "gamestage"
 				auto: "invisible"
 				stage: "Prospector I"
+			}]
+		}
+		{
+			title: "Hunter I"
+			icon: {
+				id: "minecraft:bow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: -1.0d
+			id: "1733FE20B02EFB91"
+			tasks: [
+				{
+					id: "5AC6FCF0B15B0163"
+					type: "pmmo:skill"
+					title: "Hunter Skill"
+					skill: "hunter"
+					requiredLevel: 20.0d
+				}
+				{
+					id: "5C6487857252799D"
+					type: "item"
+					item: "minecraft:bedrock"
+				}
+			]
+			rewards: [{
+				id: "6548FE281B0B1F97"
+				type: "gamestage"
+				team_reward: false
+				auto: "invisible"
+				stage: "Hunter I"
+			}]
+		}
+		{
+			title: "Sorcery I"
+			icon: {
+				id: "ars_nouveau:wand"
+				Count: 1b
+				tag: { }
+			}
+			x: 3.0d
+			y: -1.0d
+			id: "0F9DEF9BFB82D6BF"
+			tasks: [
+				{
+					id: "13CC0A67DAE4D838"
+					type: "pmmo:skill"
+					title: "Magic Skill"
+					skill: "magic"
+					requiredLevel: 20.0d
+				}
+				{
+					id: "3F8CDB426EFAA9C8"
+					type: "item"
+					item: "minecraft:bedrock"
+				}
+			]
+			rewards: [{
+				id: "5540D0A92D9DA3B7"
+				type: "gamestage"
+				team_reward: false
+				auto: "invisible"
+				stage: "Sorcery I"
+			}]
+		}
+		{
+			title: "Sorcery II"
+			icon: {
+				id: "botania:twig_wand"
+				Count: 1b
+				tag: {
+					color1: 0
+					color2: 0
+				}
+			}
+			x: 3.0d
+			y: 0.5d
+			dependencies: ["0F9DEF9BFB82D6BF"]
+			id: "5F87F12168858F1F"
+			tasks: [
+				{
+					id: "411B82F88A4FD13B"
+					type: "pmmo:skill"
+					title: "Magic Skill"
+					skill: "magic"
+					requiredLevel: 40.0d
+				}
+				{
+					id: "26E6581A1B3DB666"
+					type: "item"
+					item: "minecraft:bedrock"
+				}
+			]
+			rewards: [{
+				id: "0A0527D097C3EDA4"
+				type: "gamestage"
+				team_reward: false
+				auto: "invisible"
+				stage: "Sorcery II"
+			}]
+		}
+		{
+			title: "Sorcery III"
+			icon: "apotheosis:ender_library"
+			x: 3.0d
+			y: 2.0d
+			dependencies: ["5F87F12168858F1F"]
+			id: "17EA6678A3F00737"
+			tasks: [
+				{
+					id: "730308B996274556"
+					type: "pmmo:skill"
+					title: "Magic Skill"
+					skill: "magic"
+					requiredLevel: 60.0d
+				}
+				{
+					id: "2C1F1C7DAAC85BB2"
+					type: "item"
+					item: "minecraft:bedrock"
+				}
+			]
+			rewards: [{
+				id: "22C20EEE957319E7"
+				type: "gamestage"
+				team_reward: false
+				auto: "invisible"
+				stage: "Sorcery III"
+			}]
+		}
+		{
+			title: "Sorcery IV"
+			icon: {
+				id: "projecte:philosophers_stone"
+				Count: 1b
+				tag: { }
+				ForgeCaps: {
+					Parent: { }
+				}
+			}
+			x: 3.0d
+			y: 3.5d
+			dependencies: ["17EA6678A3F00737"]
+			id: "389586D0A09691FA"
+			tasks: [
+				{
+					id: "73CED92F1F11C03A"
+					type: "pmmo:skill"
+					title: "Magic Skill"
+					skill: "magic"
+					requiredLevel: 80.0d
+				}
+				{
+					id: "230E7132F8B01809"
+					type: "pmmo:skill"
+					title: "Alchemy Skill"
+					skill: "alchemy"
+					requiredLevel: 80.0d
+				}
+				{
+					id: "4A601DC841B49300"
+					type: "item"
+					item: "minecraft:bedrock"
+				}
+			]
+			rewards: [{
+				id: "2FE472EEF66F2685"
+				type: "gamestage"
+				team_reward: false
+				auto: "invisible"
+				stage: "Sorcery IV"
+			}]
+		}
+		{
+			title: "Smithing I"
+			icon: "tconstruct:seared_basin"
+			x: 4.5d
+			y: -1.0d
+			id: "1674DE8056DC8408"
+			tasks: [
+				{
+					id: "4B6F4E98B09BE527"
+					type: "pmmo:skill"
+					title: "Smithing Skill"
+					skill: "smithing"
+					requiredLevel: 20.0d
+				}
+				{
+					id: "4DBD5710210A6D13"
+					type: "item"
+					item: "minecraft:bedrock"
+				}
+			]
+			rewards: [{
+				id: "0CB53B4CAD504F05"
+				type: "gamestage"
+				team_reward: false
+				auto: "invisible"
+				stage: "Smithing I"
+			}]
+		}
+		{
+			title: "Witchcraft I"
+			icon: {
+				id: "hexerei:mahogany_broom"
+				Count: 1b
+				tag: { }
+			}
+			x: 6.0d
+			y: -1.0d
+			id: "3888E2A155AC975E"
+			tasks: [
+				{
+					id: "7820E05ADAE4C0B6"
+					type: "pmmo:skill"
+					title: "Magic Skill"
+					skill: "magic"
+					requiredLevel: 20.0d
+				}
+				{
+					id: "25BD8A3DF8A182A0"
+					type: "item"
+					item: "minecraft:bedrock"
+				}
+			]
+			rewards: [{
+				id: "648695EAFC5EE7DF"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "Witchcraft I"
+			}]
+		}
+		{
+			title: "Engineering III"
+			icon: "compactmachines:personal_shrinking_device"
+			x: 1.5d
+			y: 2.0d
+			shape: "gear"
+			dependencies: ["7EA07A68D8FCB6FC"]
+			id: "3793601631B3CCD3"
+			tasks: [
+				{
+					id: "6BD2B1600563C908"
+					type: "pmmo:skill"
+					title: "Crafting Skill"
+					skill: "crafting"
+					requiredLevel: 60.0d
+				}
+				{
+					id: "4968720328261A86"
+					type: "item"
+					item: "minecraft:bedrock"
+				}
+			]
+			rewards: [{
+				id: "16AB91A9CE56F80D"
+				type: "gamestage"
+				team_reward: false
+				auto: "invisible"
+				stage: "Engineering III"
+			}]
+		}
+		{
+			title: "Witchcraft II"
+			x: 6.0d
+			y: 0.5d
+			description: [""]
+			dependencies: ["3888E2A155AC975E"]
+			id: "7FFC95FE9F489929"
+			tasks: [
+				{
+					id: "6C590E6A7DDC221B"
+					type: "pmmo:skill"
+					title: "Magic Skill"
+					skill: "magic"
+					requiredLevel: 40.0d
+				}
+				{
+					id: "5BA6B3CAD985A7F7"
+					type: "item"
+					item: "minecraft:bedrock"
+				}
+			]
+			rewards: [{
+				id: "06630D01FC360A24"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "Witchcraft II"
+			}]
+		}
+		{
+			title: "Witchcraft III"
+			x: 6.0d
+			y: 2.0d
+			dependencies: ["7FFC95FE9F489929"]
+			id: "7EDF727F0EA53637"
+			tasks: [
+				{
+					id: "074667D20C730BF9"
+					type: "pmmo:skill"
+					title: "Magic Skill"
+					skill: "magic"
+					requiredLevel: 60.0d
+				}
+				{
+					id: "34D3F3B64AFFAEE0"
+					type: "item"
+					item: "minecraft:bedrock"
+				}
+			]
+			rewards: [{
+				id: "5C42215DE490251B"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "Witchcraft III"
+			}]
+		}
+		{
+			title: "Witchcraft IV"
+			x: 6.0d
+			y: 3.5d
+			dependencies: ["7EDF727F0EA53637"]
+			id: "0256CF6A6B0762E0"
+			tasks: [
+				{
+					id: "1714CDEDA63957A6"
+					type: "pmmo:skill"
+					title: "Magic Skill"
+					skill: "magic"
+					requiredLevel: 80.0d
+				}
+				{
+					id: "188CD35D1B22E237"
+					type: "item"
+					item: "minecraft:bedrock"
+				}
+			]
+			rewards: [{
+				id: "65EED23186AC5163"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "Witchcraft IV"
 			}]
 		}
 	]
