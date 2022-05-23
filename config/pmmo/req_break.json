@@ -1,102 +1,154 @@
 {
-	"#forge:ores/aluminum":
-	{
-		"mining": 25
-	},
-	"#forge:ores/copper":
+	"minecraft:copper_ore":
 	{
 		"mining": 12
 	},
-	"#forge:ores/diamond":
+	"minecraft:deepslate_copper_ore":
+	{
+		"mining": 17
+	},
+	"minecraft:diamond_ore":
 	{
 		"mining": 45
 	},
-	"#forge:ores/emerald":
+	"minecraft:deepslate_diamond_ore":
 	{
 		"mining": 50
+	},
+	"minecraft:emerald_ore":
+	{
+		"mining": 50
+	},
+	"minecraft:deepslate_emerald_ore":
+	{
+		"mining": 55
 	},
 	"#forge:ores/netherite_scrap":
 	{
 		"mining": 60
 	},
-	"#forge:ores/gold":
+	"minecraft:gold_ore":
 	{
 		"mining": 32
 	},
-	"#forge:ores/iron":
+	"minecraft:deepslate_gold_ore":
+	{
+		"mining": 37
+	},
+	"minecraft:iron_ore":
 	{
 		"mining": 15
 	},
-	"#forge:ores/lapis":
+	"minecraft:deepslate_iron_ore":
+	{
+		"mining": 20
+	},
+	"minecraft:lapis_ore":
 	{
 		"mining": 28
 	},
-	"#forge:ores/nickel":
+	"minecraft:deepslate_lapis_ore":
+	{
+		"mining": 33
+	},
+	"thermal:nickel_ore":
 	{
 		"mining": 17
+	},
+	"thermal:deepslate_nickel_ore":
+	{
+		"mining": 32
 	},
 	"#forge:ores/quartz":
 	{
 		"mining": 20
 	},
-	"#forge:ores/redstone":
+	"minecraft:redstone_ore":
 	{
 		"mining": 30
 	},
-	"#forge:ores/silver":
+	"minecraft:deepslate_redstone_ore":
+	{
+		"mining": 35
+	},
+	"thermal:cinnabar_ore":
+	{
+		"mining": 30
+	},
+	"thermal:deepslate_cinnabar_ore":
+	{
+		"mining": 35
+	},
+	"thermal:silver_ore":
 	{
 		"mining": 27
 	},
-	"#forge:ores/tin":
+	"thermal:deepslate_silver_ore":
+	{
+		"mining": 32
+	},
+	"thermal:tin_ore":
 	{
 		"mining": 8
 	},
-	"#forge:ores/zinc":
+	"thermal:deepslate_tin_ore":
 	{
-		"mining": 34
+		"mining": 13
+	},
+	"create:zinc_ore":
+	{
+		"mining": 20
+	},
+	"create:deepslate_zinc_ore":
+	{
+		"mining": 25
 	},
 	"minecraft:spawner":
 	{
 		"combat": 5
 	},
-	"oresandmetals:adamantite_ore":
-	{
-		"mining": 35
-	},
-	"oresandmetals:banite_ore":
-	{
-		"mining": 80
-	},
-	"oresandmetals:dark_animica_ore":
-	{
-		"mining": 90
-	},
-	"oresandmetals:drakolith_ore":
-	{
-		"mining": 60
-	},
-	"oresandmetals:light_animica_ore":
-	{
-		"mining": 90
-	},
-	"oresandmetals:mithril_ore":
+	"minecraft:deepslate":
 	{
 		"mining": 25
 	},
-	"oresandmetals:necrite_ore":
+	"minecraft:cobbled_deepslate":
 	{
-		"mining": 70
+		"mining": 25
 	},
-	"oresandmetals:orichalcite_ore":
+	"minecraft:polished_deepslate":
 	{
-		"mining": 60
+		"mining": 25
 	},
-	"oresandmetals:phasmatite_ore":
+	"thermal:apatite_ore":
 	{
-		"mining": 70
+		"mining": 30
 	},
-	"oresandmetals:runite_ore":
+	"thermal:deepslate_apatite_ore":
 	{
-		"mining": 50
+		"mining": 35
+	},
+	"thermal:niter_ore":
+	{
+		"mining": 22
+	},
+	"thermal:deepslate_niter_ore":
+	{
+		"mining": 27
+	},
+	"thermal:sulfur_ore":
+	{
+		"mining": 22
+	},
+	"thermal:deepslate_sulfur_ore":
+	{
+		"mining": 27
+	},
+	"thermal:lead_ore":
+	{
+		"mining": 18
+	},
+	"thermal:deepslate_lead_ore":
+	{
+		"mining": 23
 	}
 }
